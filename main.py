@@ -12,7 +12,7 @@ transitPoint = 1
 transitFinal = False
 
 #10% Exoplanet
-if(exoplanetProbability<=1):
+if random.random() < 0.10:
     transitTime = random.uniform(0, 10)
     def glow(time):
         global transitPoint
